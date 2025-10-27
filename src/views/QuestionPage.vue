@@ -15,7 +15,7 @@ onMounted(async () => {
   answers.value.push({
     id: answers.value.length,
     correct: true,
-    answers: question.value.correct_answer
+    answer: question.value.correct_answer
   })
 
   question.value.incorrect_answers.map((wrong_answer) => {
