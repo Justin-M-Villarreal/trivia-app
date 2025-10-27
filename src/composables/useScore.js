@@ -4,7 +4,7 @@ const score = ref(0)
 
 const useScore = () => {
     const changeScore = (value) => {
-        ScreenOrientation.value += value
+        score.value += value
     }
     
     return {score, changeScore}
